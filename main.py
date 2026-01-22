@@ -21,8 +21,8 @@ TOKEN = os.getenv("TOKEN")
 TZ = pytz.timezone("Europe/Rome")
 
 # 21 gennaio cambiato alle 18:30-18:45
-START_TIME = time(18, 30)
-END_TIME   = time(18, 45)
+START_TIME = time(16, 30)
+END_TIME   = time(17, 00)
 
 ACTIVE_DATES = {
     date(2026, 1, 21),
